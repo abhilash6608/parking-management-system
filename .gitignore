@@ -1,0 +1,20 @@
+
+# React dependencies and build files
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Spring Boot build files
+backend/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env*
+backend/.env*
+
+# IDE files and logs
+.vscode/
+.idea/
+*.log
